@@ -1,7 +1,6 @@
 class Solution:
     def decodeString(self, s: str) -> str:
         st = []
-        res = []
         for i in s:
             # check if digit, digit cnt 1
             if i != ']':
